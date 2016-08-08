@@ -1,0 +1,7 @@
+Name,Zone,Type,TTL,Data
+@,example2.test,A,300,1.2.3.4
+@,example2.test,MX,86400,10 mail2.mailer.com
+www,example2.test,CNAME,60,example2.test
+ftp,other2.test,A,3600,5.6.7.8
+@,example2.test,TXT,86400,v=spf1 mx a -all
+
